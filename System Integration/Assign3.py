@@ -26,7 +26,11 @@ selected_pizza =driver.find_element("xpath","/html/body/div[4]/div[2]/div/div[3]
 selected_pizza.click()
 time.sleep(3)
 
+<<<<<<< HEAD
 # Selecting the Carryout option
+=======
+# Selecting the Carryout option 
+>>>>>>> 957fb40030ac34a8693476dd102d7f5eb8516b1f
 carryout =driver.find_element("xpath","/html/body/div[3]/div[3]/div/div/div[2]/form/div/div[1]/label[2]")
 carryout.click()
 time.sleep(3)
@@ -40,7 +44,11 @@ LocationBox.send_keys("Conestoga College Waterloo Campus, University Avenue, Wat
 
 time.sleep(3)
 
+<<<<<<< HEAD
 # Selecting the Order option
+=======
+# Selecting the Order option 
+>>>>>>> 957fb40030ac34a8693476dd102d7f5eb8516b1f
 orderitem =driver.find_element("xpath","/html/body/div[3]/div[3]/div/div/div[2]/form/div/div[3]/div[2]/div/div[2]/div/div[4]/div/div/div/button")
 orderitem.click()
 time.sleep(3)
@@ -55,20 +63,36 @@ cheese_selection =driver.find_element("xpath","/html/body/div[5]/div/section/div
 cheese_selection.click()
 time.sleep(3)
 
+<<<<<<< HEAD
 # Selecting the checkout option
+=======
+# Selecting the checkout option 
+>>>>>>> 957fb40030ac34a8693476dd102d7f5eb8516b1f
 check_out =driver.find_element("xpath","/html/body/div[3]/div[2]/aside/div[1]/a")
 check_out.click()
 time.sleep(3)
 
+<<<<<<< HEAD
 # Selecting the No_Thanks option
+=======
+# Selecting the No_Thanks option 
+>>>>>>> 957fb40030ac34a8693476dd102d7f5eb8516b1f
 no_thanks = driver.find_element("xpath","/html/body/div[27]/section/div/div[2]/div/a")
 no_thanks.click()
 time.sleep(3)
 
+<<<<<<< HEAD
 # Selecting the continue to checkout option
+=======
+# Selecting the continue to checkout option 
+>>>>>>> 957fb40030ac34a8693476dd102d7f5eb8516b1f
 continue_checkout =driver.find_element("xpath","/html/body/div[3]/div[3]/div/div/div[3]/aside/div[3]/div[1]/a")
 continue_checkout.click()
 time.sleep(3)
 
 # Closing the webdriver
+<<<<<<< HEAD
 driver.close()
+=======
+driver.close()
+>>>>>>> 957fb40030ac34a8693476dd102d7f5eb8516b1f
